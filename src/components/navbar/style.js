@@ -5,8 +5,6 @@ export const Nav = style.nav`
     height:70px;
     line-height:70px;
     border-bottom:1px solid #c8c7cc;
-    width:1269px;
-    float:right;
 `
 export const Ul = style.ul`
     

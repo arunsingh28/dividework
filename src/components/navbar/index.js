@@ -14,12 +14,11 @@ const Navbar = () => {
                         <Li className="ml-10">Home</Li>
                     </Ul>
                 </div>
-
-                <Side className="absolute top-0 left-0">
-                    sdasfd
-                </Side>
-
             </Nav>
+            
+            <Side className="">
+                    sdasfd
+            </Side>
         </div>
     )
 }
