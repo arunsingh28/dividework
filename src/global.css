@@ -6,8 +6,8 @@
 
 .glassWrap{
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 15.5px );
+    backdrop-filter: blur( 90px );
+    -webkit-backdrop-filter: blur( 90px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 100vh;
     width: 100%;
@@ -15,11 +15,24 @@
 .colorBG{
     height: 100vh;
     width: 100%;
-    background: #696c7573;
+    background: #a6abb973;
     position: absolute;
     top:0px;
     left:0px;
 }
 .bg-pink{
     background-color: rgb(211, 119, 180);
+}
+.bg-yellow{
+    background-color: rgb(231, 245, 35);
+}
+.bg-oragne{
+    background-color: rgb(255, 141, 34);
+}
+.bg-purple{
+    background-color: rgb(11, 86, 224);
+}
+.btn{
+    padding: 0px 40px;
+    border: 1px solid gray;
 }
